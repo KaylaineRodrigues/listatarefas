@@ -28,11 +28,11 @@ function criarTarefa(texto, concluida = false) {
   span.textContent = texto;
 
   const editar = document.createElement("span");
-  editar.innerHTML = `<img src="Vector.png" alt="Editar" class="icone edit">`; // ✅ usando imagem
+  editar.innerHTML = `<img src="Vector.png" alt="Editar" class="icone edit">`;
   editar.classList.add("icone", "edit");
 
   const remover = document.createElement("span");
-  remover.innerHTML = `<img src="Trash.png" alt="Deletar" class="icone delete">`; // ✅ usando imagem
+  remover.innerHTML = `<img src="Trash.png" alt="Deletar" class="icone delete">`;
   remover.classList.add("icone", "delete");
 
   checkbox.addEventListener("change", () => {
