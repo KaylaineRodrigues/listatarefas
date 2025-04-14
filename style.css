@@ -1,0 +1,115 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 538px;
+  margin: auto;
+  padding-top: 50px;
+  
+}
+.lista{
+  width: 540px;
+}
+p{
+  text-align: justify;
+}
+h1 {
+  font-size: 50px;
+  text-align:left;
+  padding: 20px;
+}
+
+.task-input {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  width: 100%;
+  max-width: 700px;
+}
+
+input[type="text"] {
+  flex: 1; 
+  padding: 12px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  background-color: #302e2e;
+  color: #ffff;
+  border: 2px solid #878585;
+}
+
+button {
+  padding: 12px 16px;
+  background-color: #1d1b1b;
+  color: #b1aeae;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: #444;
+}
+
+ul {
+  padding: 0;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center; 
+  padding: 12px 16px;
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin: 10px auto;
+  max-width: 540px; 
+  box-sizing: border-box;
+  gap: 10px; 
+  
+}
+
+.tarefa-conteudo {
+  display: flex;
+  align-items: center; 
+  flex: 1;
+  text-align: left;
+}
+
+.tarefa span {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.tarefa.concluida span {
+  text-decoration:line-through;
+  color: #ffffff;
+}
+
+.icone {
+  cursor: pointer;
+}
+.icone.edit {
+  display: flex;
+  justify-content:right;
+  align-items: end;
+}
+.icone.delete {
+  display: flex;
+  justify-content:end;
+  align-items:end;
+}
+
